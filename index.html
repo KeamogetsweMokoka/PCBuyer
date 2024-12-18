@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PC Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaQuery.css">
 </head>
 <body>
-    
+    <nav id="desktop-nav">
+        <div class="logo">PC Shop</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home"></a>Home</li>
+                <li><a href="#about"></a>About</li>
+                <li><a href="#team"></a>Team</li>
+                <li><a href="#tesimonials"></a>Tesimonials</li>
+                <li><a href="#gallery"></a>Gallery</li>
+                <li><a href="#contacts"></a>Contacts</li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="Toggle()">Home</a></li>
+                <li><a href="#about" onclick="Toggle()">About</a></li>
+                <li><a href="#team" onclick="Toggle()">Team</a></li>
+                <li><a href="#tesimonials" onclick="Toggle()">Tesimonials</a></li>
+                <li><a href="#gallery" onclick="Toggle()">Gallery</a></li>
+                <li><a href="#contacts" onclick="Toggle()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="home-container">
+            <div class="grid-item-1">Text Goes Here !</div>
+            <div class="grid-item-1"> Image Goes Here !</div>
+            <div class="grid-item-2">*Image of phone*</div>
+            <div class="grid-item-2">Number Goes Here</div>
+            <div class="grid-item-2">Request a Call Back</div>
+        </div>
+    </section>
 </body>
 </html>

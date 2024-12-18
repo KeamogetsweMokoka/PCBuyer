@@ -1,0 +1,41 @@
+nav, 
+.nav-links{
+    display: flex;
+}
+nav{
+    justify-content: center ;
+    align-items: center;
+    height: 50%;
+}
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.logo{
+    font-size: 2rem;
+    padding-right: 200px;
+}
+
+/* Home section */ 
+
+.home-container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 450px 100px;
+    gap: 10px;
+    background-color: lightblue;
+    justify-content: space-around;
+}
+.grid-item-1{
+    text-align: center;
+    padding: 10px; 
+    border: 1px solid blue;
+}
+.grid-item-2{
+    grid-template-columns: 500px;
+    grid-template-rows: 100px 100px 100px;
+    align-items: center;
+    text-align: center;
+    
+}
